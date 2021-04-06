@@ -1,0 +1,118 @@
+body {
+  background-color: black;
+}
+
+.page-content {
+  padding: 0;
+  background-image: url("./bokeh_bg_fade.jpeg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-color: #000;
+}
+
+@media screen and (min-width: 2000px) {
+  .page-content {
+    background-size: auto 100vh;
+  }
+}
+
+.wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.post-header {
+  background: black;
+  padding: 30px;
+  margin: 0;
+  color: white;
+}
+
+.post-subtitle {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.post-text {
+  text-shadow: -2px 2px 1px #000, 2px 2px 1px #000, 2px -2px 1px #000, -2px -2px 1px #000;
+  background: #00000077;
+  padding: 30px;
+  color: white;
+}
+
+.post-text p {
+   // padding: 30px;
+ font-size: 1.5em;
+}
+
+.post-text h1, h2, h3, h4, h5 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.post-text li > p {
+  margin-left: 15px;
+}
+
+.post-content {
+
+  margin-bottom: 0;
+  padding-bottom: 60px;
+}
+
+.header-map {
+  max-width: 60vw;
+  max-height: 80vh;
+  margin: 45px 0;
+  box-shadow: 4px 4px 16px 16px #00000099
+}
+
+.course-map {
+  margin: 45px 0 0 0;
+}
+
+.site-footer {
+  background: white;
+  padding: 30px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 64px;
+  width: 50%;
+}
+
+.vertical-divider {
+  border-right: 1px solid #8d8d8d;
+}
+
+.horizontal-divider {
+  border-bottom: 1px dashed #8d8d8d;
+}
+
+.centered {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  padding: 30px 0;
+  border-top: 1px dashed white;
+}
+
+.info-bite {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup > input {
+  margin-bottom: 15px;
+}

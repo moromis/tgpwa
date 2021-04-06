@@ -1,0 +1,27 @@
+{
+  "name": "cycling is cool",
+  "version": "1.0.0",
+  "description": "The Cycling Is Cool Shop",
+  "main": "index.js",
+  "scripts": {
+    "setup:mac": "brew install rbenv && rbenv init && rbenv install 3.0.0 && rbenv global 3.0.0 && gem install --user-install bundler jekyll",
+    "start": "bundle exec jekyll serve --livereload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moromis/cyclingiscool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moromis/cyclingiscool/issues"
+  },
+  "homepage": "https://github.com/moromis/cyclingiscool#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
+}

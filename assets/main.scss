@@ -1,0 +1,51 @@
+---
+---
+
+@font-face {
+  font-family: 'Lato';
+  src: url('Lato/Lato-Regular.ttf') format('truetype'); /* IE9 Compat Modes */
+}
+
+@import 'minima';
+@import 'bootstrap/bootstrap';
+@import 'spinner';
+@import 'custom';
+
+// Overrides
+html {
+  scroll-snap-stop: normal;
+  scroll-snap-type: y;
+}
+
+body {
+    font-family: 'Lato', Roboto, Arial, sans-serif
+}
+
+.site-header {
+  border-top: none;
+}
+
+.site-title {
+  line-height: inherit;
+  letter-spacing: 4px;
+  font-size: 100%;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+.nav-item {
+  margin-right: 16px;
+}
+
+.dropdown-menu {
+  right: 0;
+  left: inherit;
+}
