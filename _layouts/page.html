@@ -3,9 +3,18 @@ layout: default
 ---
 <article class="post">
 
-  <header class="post-header">
+    <header class="post-header">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
       <h1 class="post-title">{{ page.title | escape }}</h1>
       <h2 class="post-subtitle">{{ page.subtitle | escape }}</h2>
+            </div>
+            <div>
+                <h4 class="post-tagline">
+                    Unsanctioned, unsponsored, unsafe
+                </h4>
+            </div>
+        </div>
   </header>
 
   <div class="post-content">

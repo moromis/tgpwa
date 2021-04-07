@@ -22,7 +22,8 @@ body {
 }
 
 .post-header {
-  background: black;
+  background: transparent;
+  background-image: linear-gradient(black, #00000077);
   padding: 30px;
   margin: 0;
   color: white;
@@ -41,7 +42,6 @@ body {
 }
 
 .post-text p {
-   // padding: 30px;
  font-size: 1.5em;
 }
 
@@ -51,8 +51,17 @@ body {
   margin-bottom: 30px;
 }
 
+.post-text ol {
+  margin-left: 60px;
+}
+
+.post-text li {
+  font-size: 1.75em;
+}
+
 .post-text li > p {
   margin-left: 15px;
+  font-size: 1em;
 }
 
 .post-content {
@@ -61,11 +70,17 @@ body {
   padding-bottom: 60px;
 }
 
+.header-map-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #00000077;
+}
+
 .header-map {
   max-width: 60vw;
   max-height: 80vh;
   margin: 45px 0;
-  box-shadow: 4px 4px 16px 16px #00000099
 }
 
 .course-map {
@@ -108,11 +123,6 @@ body {
   justify-content: space-between;
 }
 
-.signup {
-  display: flex;
-  flex-direction: column;
-}
-
-.signup > input {
-  margin-bottom: 15px;
+.post-tagline {
+  font-size: 1.5em;
 }
