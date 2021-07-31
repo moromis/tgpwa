@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 author: Kevin Ulrich
-title: The Grand Passage WA MTB Race
+title: The Grand Passage WA MTB Fun Ride
 email: themoromis@gmail.com
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://www.tgpwa.com' # the base hostname & protocol for your site, e.g. http://example.com
