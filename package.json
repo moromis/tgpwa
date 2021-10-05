@@ -1,0 +1,27 @@
+{
+  "name": "The Grand Passage",
+  "version": "1.0.0",
+  "description": "The Grand Passage WA MTB Race",
+  "main": "index.js",
+  "scripts": {
+    "setup:mac": "brew install rbenv && rbenv init && rbenv install 3.0.0 && rbenv global 3.0.0 && gem install --user-install bundler jekyll",
+    "start": "bundle exec jekyll serve --livereload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moromis/tgpwa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moromis/tgpwa/issues"
+  },
+  "homepage": "https://github.com/moromis/tgpwa#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
+}
